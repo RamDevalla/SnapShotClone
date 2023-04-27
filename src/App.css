@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.main-container{
+   display: flex;
+   justify-content: center;
+   width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sub-section{
+    /* border: 2px solid black; */
+    width: 100%;
+    background-color: lightblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sec1{
+    margin: 3px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    font-size: xx-large !important;
+    width: 99%;
+    background-image: url('./Images/004.jfif');
+}
+.div1{
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.input{
+    width: 290px;
+    margin: 4px;
+    height: 25px;
+}
+.search-btn{
+    font-size: large;
+    font-weight: bolder;
+    font-family:cursive;
+    margin: 4px;
+    border-radius: 8px;
+    background-color: chartreuse;
+    color:red;
+}
+.sec2{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn{
+    border-radius: 5px;
+    border: 1px solid orange;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: cursive;
+}
+.textclass{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.marquee{
+    width: 450px;
+   
 }

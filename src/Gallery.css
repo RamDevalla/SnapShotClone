@@ -1,0 +1,12 @@
+/* .container{
+    display:'flex' !important;
+    flex-wrap: wrap !important;
+    width: 100%;
+    height: max-content;
+} */
+img{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 200px;
+    height: 200px;
+}
